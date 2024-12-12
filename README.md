@@ -7,7 +7,7 @@ media uploader using RDS &amp; S3
 4.	Create IAM role for S3 full access and give this role to instance 
 5.	Launch instance in powershell and install three services nginx, php, mariadb and start all the services
 6.	Inside the instance at default path (/usr/share/nginx/html) create two files registration.html & upload.php
-7.	at the same path install sdk to install there are lots of commands 
+7.	at the same path install sdk to install there are lots of commands <br>
 sudo curl -sS https://getcomposer.org/installer | sudo php <br>
 sudo mv composer.phar /usr/local/bin/composer <br>
 sudo ln -s /usr/local/bin/composer /usr/bin/composer <br>
